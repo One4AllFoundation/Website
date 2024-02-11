@@ -1,5 +1,5 @@
 {
-  "name": "startup-nextjs-template",
+  "name": "one4allfoundation",
   "version": "0.2.0",
   "private": true,
   "scripts": {
@@ -15,6 +15,7 @@
     "next-themes": "^0.2.1",
     "next.js": "^1.0.3",
     "nextjs": "^0.0.3",
+    "pnpm": "^8.15.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-modal-video": "^2.0.0"

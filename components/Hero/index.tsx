@@ -18,7 +18,7 @@ const Hero = () => {
                   One for All Foundation
                 </h1>
                 <p className="dark:text-body-color-dark mb-12 text-base !leading-relaxed text-body-color sm:text-lg md:text-xl">
-                  One4All Foundation boosts senior community spirit with fun bingo nights, concerts, and a variety of social events, supported by a dedicated team fostering joy and companionship.
+                Our noble mission at One4All is dedicated to radiating kindness and joy to those who embody the true essence of our glorified nation the USA - the elderly. In the modern day and age, the elderly often find themselves overlooked and shrugged to the sidelines, their significance seemingly diminished. Our purpose is to extend our gratitude to these remarkable individuals,  cultivating an atmosphere that fosters the utmost fulfillment in the remaining chapters of their lives. Through our movement, we aspire to rejuvenate the spirits of the elderly, allowing them to feel youthful once more and encompassing them in a constant stream of love and care.
                 </p>
                 <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
                   <Link

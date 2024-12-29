@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Your custom styles MUST be after the @tailwind directives */
+body {
+  background-color: white;
+  color: darkgreen;
+  font-family: Arial, Helvetica, sans-serif;
+}

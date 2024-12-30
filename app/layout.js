@@ -1,5 +1,6 @@
 import { Delius } from 'next/font/google';
 import "./globals.css";
+import Navbar from "@/components/Navbar";
 
 export const delius = Delius({
     weight: '400', // or specify the weights you need
@@ -16,6 +17,7 @@ export default function RootLayout({ children }) {
         <html lang="en" className={delius.className}>
         <body>
         <div className="main-content">
+            <Navbar />
             {children}
         </div>
         </body>

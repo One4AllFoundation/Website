@@ -10,11 +10,13 @@ const ComingSoon = () => {
             <div className="absolute inset-0 bg-black opacity-50"></div>
             <div className=" z-10 flex flex-col items-center justify-center text-center">
                 <div>
-                    <Image className="rounded-2xl mb-16"
+                    <Image className="rounded-2xl mb-8"
                            src="/logo.png"
                            alt="OFA Logo"
                            width={180}
-                           height={180}/>
+                           height={180}
+                           priority={true}
+                           quality={100}/>
                 </div>
                 <div className="mt-4">
                     <h1 className="text-7xl md:text-8xl lg:text-9xl font-bold text-white mb-8">

@@ -3,7 +3,7 @@
 @tailwind utilities;
 /* Your custom styles MUST be after the @tailwind directives */
 body {
-  background-color: white;
+  background-color: darkgreen;
   color: darkgreen;
   font-family: delius, serif;
 }

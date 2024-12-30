@@ -10,7 +10,7 @@ const ComingSoon = () => {
             <div className="absolute inset-0 bg-black opacity-50"></div>
             <div className=" z-10 flex flex-col items-center justify-center text-center">
                 <div>
-                    <Image className="rounded-2xl mb-16"
+                    <Image className="rounded-2xl mb-8"
                            src="/logo.png"
                            alt="OFA Logo"
                            width={180}

@@ -11,6 +11,9 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      fontFamily: {
+        delius: ['var(--font-delius)', 'cursive']
+      },
     },
   },
   plugins: [],

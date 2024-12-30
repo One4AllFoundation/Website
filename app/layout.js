@@ -1,9 +1,9 @@
-import { Geist } from "next/font/google";
+import { Delius } from 'next/font/google';
 import "./globals.css";
 
-const geist = Geist({
-    subsets: ["latin"],
-    variable: "--font-geist",
+export const delius = Delius({
+    weight: '400', // or specify the weights you need
+    subsets: ['latin'],
 });
 
 export const metadata = {
@@ -13,7 +13,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
     return (
-        <html lang="en" className={geist.className}>
+        <html lang="en" className={delius.className}>
         <body>
         <div className="main-content">
             {children}

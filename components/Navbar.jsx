@@ -4,7 +4,7 @@ import Image from 'next/image';
 import { useState } from 'react'; // Import useState
 
 const Navbar = () => {
-    const navItems = ['Home', 'Stories', 'Blogs', 'Our Story'];
+    const navItems = ['Home', 'Stories', 'Blogs', 'About Us'];
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false); // State for mobile menu
 
     const toggleMobileMenu = () => {
@@ -26,7 +26,7 @@ const Navbar = () => {
                         {navItems.map((item) => (
                             <li key={item}>
                                 <Link
-                                    href={item === 'Home' ? '/' : `/${item.toLowerCase()}`}
+                                    href={item === 'Home' ? '/' : `/${item.toLowerCase().replaceAll(" ", "")}`}
                                     className="inline-block p-2 px-4 font-semibold text-xl text-gray-800 hover:text-green-600" // Added text color
                                 >
                                     <span>{item}</span>

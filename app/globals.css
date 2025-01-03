@@ -1,9 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Delius&display=swap');
+
+:root {
+  --background: white; /* Match this with your tailwind.config.js */
+  --foreground: white; /* Match this with your tailwind.config.js */
+  --font-delius: 'Delius', cursive; /* Match this with your tailwind.config.js */
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-/* Your custom styles MUST be after the @tailwind directives */
-body {
-  background-color: darkgreen;
-  color: darkgreen;
-  font-family: delius, serif;
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: var(--background); /* Use CSS variable */
+  color: var(--foreground); /* Use CSS variable */
+  font-family: var(--font-delius), cursive; /* Use CSS variable */
 }

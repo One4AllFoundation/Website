@@ -11,12 +11,6 @@ const Hero = () => {
                     Radiating Kindness and Joy to Our Elders
                 </h2>
                 <div className="flex justify-center space-x-4">
-                    <button className="bg-green-800 hover:bg-green-600 text-white font-medium py-3 px-6 rounded-lg transition duration-300 shadow-lg text-lg"> {/* Adjusted font weight and size */}
-                        Learn More
-                    </button>
-                    <button className="bg-red-800 hover:bg-red-600 text-white font-medium py-3 px-6 rounded-lg transition duration-300 shadow-lg text-lg"> {/* Adjusted font weight and size */}
-                        Donate
-                    </button>
                 </div>
             </div>
         </section>
